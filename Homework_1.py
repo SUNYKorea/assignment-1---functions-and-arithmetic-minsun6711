@@ -1,8 +1,14 @@
 # Name:Minsun Kim
 # SBUID: 115964125
-
+##################### SCORE ######################
+#######  Score:  6/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
-
+## your output:
+# (base) D:\CSE 101 Ass1\Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27>D:/anaconda/python.exe "d:/CSE 101 Ass1/Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27/minsun6711/Homework_1.py"
+# The area of the triangle is : 32.0 , its perimeter is : 27.440161448987652-> correct
+# The area of the polygon is : 14.530850560107215 --> wrong
+# no answer for 1st qs
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
@@ -54,12 +60,12 @@ import math
 
 def deg2rad(deg):
     return deg * math.pi/180
-    ...
+    
 
 def apothem(number_sides, length_side):
     a = length_side/2* math.tan(deg2rad(180/number_sides))
     return a 
-   ...
+  
 
 def polygon_area(number_sides, length_side):
     area = (number_sides* length_side * apothem(number_sides, length_side))/2 
